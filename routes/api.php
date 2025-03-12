@@ -15,3 +15,4 @@ Route::put('/usuarios/{id}', [UsuariosController::class,'update']);
 Route::patch('/usuarios/{id}', [UsuariosController::class,'updatePartial']);
 
 Route::delete('/usuarios/{id}',[UsuariosController::class,'destroy']);
+
